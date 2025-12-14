@@ -1,10 +1,10 @@
 # File breakdowns
 ## ulog_script.sh
-This script will convert all .ulg files in the current folder and convert them into a series of .csv files. These converted files are sorted into folders respective to their .ulg file name, and aggregated in a folder called "csv_version". "csv_version" will be a subfolder in the current path.
+This Bash script will convert all .ulg files in the current folder and convert them into a series of .csv files. These converted files are sorted into folders respective to their .ulg file name, and aggregated in a folder called "csv_version". "csv_version" will be a subfolder in the current path.
 For more details, please refer to the file structure breakdown in the script.
 
 ## csv_processing.sh
-This script creates a .csv file that can be used as flight logs for the AirFloX (JB Hyperspectral) sensors.
+This Bash and Python script creates a .csv file that can be used as flight logs for the AirFloX (JB Hyperspectral) sensors.
 It requires:
 - vehicle gps position, global position, attitude, and a combined sensor .csv file, which are usually converted from .ulg files.
 - a subfolder called "csv_version" to exist, where further subfolders within this contain .csv files converted from .ulg files.
